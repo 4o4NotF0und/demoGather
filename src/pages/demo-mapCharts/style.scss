@@ -1,0 +1,24 @@
+//@import "@/lib/reset.scss";
+
+.demo-mapCharts{
+  //background-color: white;
+  height: 100%;
+  overflow: auto;
+  #map{
+    height: 600px;
+    background-color: rgba(0,0,0,0.4);
+    transition: 0.3s;
+    &:hover{
+      background-color: rgba(0,0,0,0.7);
+    }
+  }
+  #line{
+    margin-top: 10px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.4);
+    transition: 0.3s;
+    &:hover{
+      background-color: rgba(0,0,0,0.7);
+    }
+  }
+}
